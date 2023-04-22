@@ -1,0 +1,24 @@
+# goblins_hud_timer: time in seconds the goblins HUD will be visible following interactions (0 disables HUD)
+goblins_hud_timer (goblins HUD timer for interactions) int 0
+# goblins_aggro_on_wield: will goblins attack when a weapon is wielded?
+goblins_aggro_on_wield (goblins attack when a weapon is wielded) bool true
+# goblins_defend_groups: will goblins and gobdogs defend other mobs?
+goblins_defend_groups (goblins and gobdogs defend other mobs) bool true
+
+# trade shrewdness increases trade difficulty
+goblins_trade_shrewdness (trade shrewdness increases trade difficulty) int 20 
+
+# use strict protection if node protection is activated (otherwise mobs can replace nodes they are close to)
+goblins_node_protect_strict (use strict protection if node protection is activated) bool true
+
+# utilities debug output announce_spawning
+goblins_announce_spawning (utilities debug output announce_spawning) bool false
+
+# debug output 
+goblins_debug (debug output) bool false
+
+# debug categories can be words separated by spaces such as:
+goblins_debug_categories (filter debug output categories) string
+
+
+
