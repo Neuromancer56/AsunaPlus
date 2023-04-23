@@ -46,7 +46,7 @@ mobs:register_mob('mobs_skeletons:skeleton_archer_dark', {
 	fear_height = 6,
 	fall_damage = true,
 	lava_damage = 9999,
-	light_damage = 1,
+	light_damage = 0,
 	light_damage_min = (default.LIGHT_MAX / 2),
 	light_damage_max = (default.LIGHT_MAX + 1),
 	suffocation = 0,
