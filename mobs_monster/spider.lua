@@ -243,9 +243,9 @@ if not mobs.custom_spawn_monster then
 	-- below ground spawn
 	mobs:spawn({
 		name = "mobs_monster:spider",
-		nodes = {"default:stone_with_mese", "default:mese", "default:stone"},
+		nodes = {"default:stone_with_mese", "default:mese", "default:stone", "caverealms:stone_with_salt", "default:stone_with_coal"},
 		min_light = 0,
-		max_light = 7,
+		max_light = 15,
 		chance = 2000,  --7000
 		active_object_count = 2, --1
 		min_height = -31000,

@@ -36,7 +36,9 @@ local S = minetest.get_translator('mobs_skeletons')
 --
 
 mobs:spawn({name = 'mobs_skeletons:skeleton',
-	nodes = {
+	nodes = { 
+		'caverealms:stone_with_salt',
+		'group:stone',
 		'group:crumbly',
 		'group:cracky'
 	},
@@ -50,6 +52,8 @@ mobs:spawn({name = 'mobs_skeletons:skeleton',
 
 mobs:spawn({name = 'mobs_skeletons:skeleton_archer',
 	nodes = {
+		'caverealms:stone_with_salt',
+		'group:stone',
 		'group:crumbly',
 		'group:cracky'
 	},
@@ -63,6 +67,8 @@ mobs:spawn({name = 'mobs_skeletons:skeleton_archer',
 
 mobs:spawn({name = 'mobs_skeletons:skeleton_archer_dark',
 	nodes = {
+		'caverealms:stone_with_salt',
+		'group:stone',
 		'group:crumbly',
 		'group:cracky'
 	},

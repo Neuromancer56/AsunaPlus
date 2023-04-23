@@ -65,7 +65,7 @@ if dmobs.regulars then
 	mobs:spawn({name = "dmobs:treeman", nodes = {"group:leaves"}, neighbor = {},
 		min_light = 7, max_light = 15, interval = 300, chance = 4000, active_object_count = 4, min_height = 0, max_height = 2000})  --16000,2
 	mobs:spawn({name = "dmobs:skeleton", nodes = {"group:stone","caverealms:stone_with_salt","default:desert_sand"}, neighbor = {},
-		min_light = 0, max_light = 10, interval = 300, chance = 4000, active_object_count = 4, min_height = -31000, max_height = -1000})  --16000, 2
+		min_light = 0, max_light = 10, interval = 300, chance = 4000, active_object_count = 4, min_height = -31000, max_height = -1})  --16000, 2
 
 -- Orcs and ogres spawn more often when dragons are disabled
 	if not dmobs.dragons then
