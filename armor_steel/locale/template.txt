@@ -1,5 +1,0 @@
-# textdomain: armor_steel
-Steel Helmet=
-Steel Chestplate=
-Steel Leggings=
-Steel Boots=

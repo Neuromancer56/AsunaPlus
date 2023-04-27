@@ -1,5 +1,0 @@
-# textdomain: armor_diamond
-Diamond Helmet=
-Diamond Chestplate=
-Diamond Leggings=
-Diamond Boots=
