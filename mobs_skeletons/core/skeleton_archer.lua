@@ -47,8 +47,8 @@ mobs:register_mob('mobs_skeletons:skeleton_archer', {
 	fall_damage = true,
 	lava_damage = 9999,
 	light_damage = 0,
-	light_damage_min = 0,--(default.LIGHT_MAX / 2),
-	light_damage_max = 0,--(default.LIGHT_MAX + 1),
+	light_damage_min = (default.LIGHT_MAX / 2),
+	light_damage_max = (default.LIGHT_MAX + 1),
 	suffocation = 0,
 	floats = 0,
 	reach = 4,
@@ -98,7 +98,7 @@ mobs:register_mob('mobs_skeletons:skeleton_archer', {
 		{name = 'bonemeal:bone', chance = 3, min = 1, max = 2}
 	},
 
-	--on_spawn = function(self)
-	--	self.light_damage = mobs_skeletons.fn_DamagePerSecond(self)
-	--end
+	on_spawn = function(self)
+		self.light_damage = mobs_skeletons.fn_DamagePerSecond(self)
+	end
 })
